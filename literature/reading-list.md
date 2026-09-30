@@ -39,6 +39,8 @@
 
 **元数据核对**：同日放行网络后，逐条用 Crossref API 核对 DOI 和题名；预印本用 arXiv API 核对，并查找了正式发表版本；中文 DOI 通过 doi.org 解析到知网或出版方页面核对。OpenAlex 当时被限流（HTTP 429），没有使用。
 
+**模块化补检**：2026-09-30 按 9 个研究模块，用 48 组中英文检索式在 Crossref 系统检索（2012 年以后，每组取前 60 条）。去掉开题和本清单已有的文献后得到 1178 条候选，按题名人工筛选出 85 条相关文献，列入第十四节。
+
 **未能直接检索的数据库**：中国知网、万方、Web of Science。
 
 **对结果的影响**：
@@ -463,22 +465,167 @@ D 评价块：感性工学 + 眼动 + 文化适切 + 本真性 + 参与式设计
 
 已经补全、不必再查的中文文献：丁宁等（2023）、秦臻等（2021）、王梦园和弓太生（2021）、郑锐等（2019，作者部分）。
 
+## 十四、补检新增（2026-09-30）
+
+这一节是按研究模块系统补检后新增的文献。所有条目的元数据都直接取自 Crossref，并按 APA 7 格式整理。
+
+### 14.1 苗族与苗绣文化本体（对应第一节）
+
+- ✅ ★ Cho, H.-Y. (2023). The language of Miao embroidery: Exploring the traditional “embroidered rear skirt panels” worn by the Miao women of the Huawu Village. *TEXTILE*, *21*(1), 2–31. https://doi.org/10.1080/14759756.2021.1959821
+- ⚠️ Ho, Z. (2022). Embroidery speaks: What does Miao embroidery tell us? In *Modalities of change* (pp. 62–92). Berghahn. https://doi.org/10.1515/9780857455710-006
+  - 待核：Crossref 标注 2022 年（De Gruyter 再版），原版年份和主编请在原书核对。
+- ✅ Wang, S., & Kolosnichenko, O. V. (2024). Study of Miao embroidery: Semiotics of patterns and artistic value. *Art and Design*, 98–109. https://doi.org/10.30857/2617-0272.2024.3.8
+- ✅ Peng, Z., Deng, K., Wei, Y., & Wang, Z. (2021). Study on the factors affecting the embroidery pattern style of Miao in Leishan. *Asian Social Science*, *17*(12), 81. https://doi.org/10.5539/ass.v17n12p81
+- ✅ Torimaru, T. (2021). A compared study of Miao embroidery and ancient Chinese embroidery: The cultural and historical significances. *Textile Society of America Symposium Proceedings*. https://doi.org/10.32873/unl.dc.tsasp.0101
+- ✅ Turner, S., Bonnin, C., & Michaud, J. (2015). Weaving livelihoods: Local and global Hmong textile trades. In *Frontier livelihoods* (pp. 125–147). University of Washington Press. https://doi.org/10.1515/9780295805962-008
+- ✅ Li, Y., Turner, S., & Cui, H. (2016). Confrontations and concessions: An everyday politics of tourism in three ethnic minority villages, Guizhou Province, China. *Journal of Tourism and Cultural Change*, *14*(1), 45–61. https://doi.org/10.1080/14766825.2015.1011162
+- ✅ Xiong, R., & Liu, Y. (2026). From social learning mechanisms to cultural participation: The mediating role of learning culture in Miao embroidery communities. *Frontiers in Psychology*, *17*, 1888090. https://doi.org/10.3389/fpsyg.2026.1888090
+- ⚠️ Xuan, Z., & Jianmin, Z. (2020). Extraction of Miao embroidery culture factors based on perception analysis. *E3S Web of Conferences*, *179*, 02086. https://doi.org/10.1051/e3sconf/202017902086
+  - 待核：Crossref 的作者姓名疑似姓和名颠倒，请在原文核对。
+
+### 14.2 纹样结构、对称与构图（对应第二节）
+
+- ✅ ★ Lyu, Z. N., Yahaya, S. R., & Guo, X. H. (2025). A mathematical inquiry into the structure complexity of Miao batik patterns: A frieze group analysis. *PaperASIA*, *41*(1b), 70–80. https://doi.org/10.59953/paperasia.v41i1b.159
+- ✅ Hu, Z., Strobl, J., Min, Q., Tan, M., & Chen, F. (2021). Visualizing the cultural landscape gene of traditional settlements in China: A semiotic perspective. *Heritage Science*, *9*(1), 115. https://doi.org/10.1186/s40494-021-00589-y
+- ✅ Kunkhet, A., Chudasri, D., & Sukantamala, N. (2022). Developing the framework of harmonised shape grammar to regenerate traditional textile patterns. *Asian Journal of Arts and Culture*, *22*(1), 256465. https://doi.org/10.48048/ajac.2022.256465
+- ✅ Ding, N., Lv, J., & Hu, L. (2020). Research on national pattern reuse design and optimization method based on improved shape grammar. *International Journal of Computational Intelligence Systems*, *13*(1), 300. https://doi.org/10.2991/ijcis.d.200310.003
+- ✅ Budi, S., Bina Affanti, T., & Mataram, S. (2026). The parang motif in variants of classical Javanese batik as an Indonesian cultural heritage. *Heritage & Society*, *19*(2), 603–622. https://doi.org/10.1080/2159032x.2025.2515693
+- ✅ Yang, Q., Cheng, Z., & Zhang, Q. (2025). Innovating traditional patterns through computational design: Generation and evaluation of Xilankapu brocade patterns using shape grammar. *Asia-pacific Journal of Convergent Research Interchange*, *11*(5), 393–417. https://doi.org/10.47116/apjcri.2025.05.26
+- ✅ ★ Panofsky, E. (1955). *Meaning in the visual arts*. Doubleday.
+- ✅ ★ Gombrich, E. H. (1979). *The sense of order: A study in the psychology of decorative art*. Phaidon.
+- ✅ ★ Gell, A. (1998). *Art and agency: An anthropological theory*. Clarendon Press.
+  - 理由：这三本是装饰艺术的图像学和人类学经典。Panofsky 的三层意义（前图像志、图像志、图像学）可以直接对应你的"元素—关系—语境"分层；Gombrich 讨论装饰纹样的秩序感与知觉；Gell 讨论装饰纹样的能动性。
+
+### 14.3 非遗数字化与知识组织（对应第三节）
+
+- ✅ Dou, J., Qin, J., Jin, Z., & Li, Z. (2018). Knowledge graph based on domain ontology and natural language processing technology for Chinese intangible cultural heritage. *Journal of Visual Languages & Computing*, *48*, 19–28. https://doi.org/10.1016/j.jvlc.2018.06.005
+- ✅ Fan, T., Wang, H., & Hodel, T. (2023). CICHMKG: A large-scale and comprehensive Chinese intangible cultural heritage multimodal knowledge graph. *Heritage Science*, *11*(1), 115. https://doi.org/10.1186/s40494-023-00927-2
+- ✅ Liang, Y., Xie, B., Tan, W., & Zhang, Q. (2025). Ontology-based construction of embroidery intangible cultural heritage knowledge graph: A case study of Qingyang sachets. *PLOS ONE*, *20*(1), e0317447. https://doi.org/10.1371/journal.pone.0317447
+- ✅ Du, D., Ding, J., & Liu, Y. (2025). Knowledge graph construction of Chinese embroidery evolution based on associating cultural space and critical incidents under intangible cultural heritage. *The Electronic Library*, *43*(3), 283–302. https://doi.org/10.1108/el-02-2024-0036
+- ✅ Faraj, G., & Micsik, A. (2021). Representing and validating cultural heritage knowledge graphs in CIDOC-CRM ontology. *Future Internet*, *13*(11), 277. https://doi.org/10.3390/fi13110277
+- ✅ Zhou, Y., & Liu, J. (2024). The predicament of Suzhou embroidery: Implications of intangible cultural heritage in China. *TEXTILE*, *22*(2), 400–417. https://doi.org/10.1080/14759756.2023.2228024
+- ✅ Xue, K., Wang, B., & Li, Y. (2026). Empowering intangible cultural heritage with digital intelligence: A multi-method qualitative study on Su embroidery. *Digital Scholarship in the Humanities*, *41*(1), 520–535. https://doi.org/10.1093/llc/fqaf137
+- ✅ Lu, W., Hu, Y., Ye, C., Lu, J., & Petiot, J.-F. (2026). Digitizing intangible cultural heritage: A vector-to-interaction protocol for Yangzhou embroidery revitalization. *Digital Engineering*, *9*, 100076. https://doi.org/10.1016/j.dte.2025.100076
+- ✅ Alivizatou, M. (2012). The paradoxes of intangible heritage. In *Safeguarding intangible cultural heritage* (pp. 9–22). Boydell & Brewer. https://doi.org/10.1515/9781846158629-004
+
+### 14.4 识别、检测、分割与修复（对应第四节）
+
+- ✅ ★ Deng, H., Zhao, T., & Qi, X. (2026). Robust classification of Miao embroidery patterns based on shape graph structure alignment. In *International Conference on Advances in Computer Vision Research and Applications (ACVRA 2026)*. https://doi.org/10.1117/12.3115378
+- ✅ Zhao, T., Qi, X., & Yang, J. (2025). Mask-gated UNet for automated restoration of Miao ethnic embroidery patterns. In *2025 4th International Conference on Image Processing, Computer Vision and Machine Learning (ICICML)* (pp. 212–219). https://doi.org/10.1109/icicml67980.2025.11333736
+- ✅ Chen, L., Chen, J., Su, Z., He, X., Zuo, C., & Li, X. (2025). A vision-based AI framework for skill transfer and robotic replication of Miao embroidery techniques. *Signal, Image and Video Processing*, *19*(9), 769. https://doi.org/10.1007/s11760-025-04324-z
+- ✅ Hou, X., Zhao, H., & Wang, C. (2024). Hierarchical segmentation for traditional cultural pattern based on iterative compression and clustering. *Multimedia Systems*, *30*(6), 372. https://doi.org/10.1007/s00530-024-01578-4
+- ✅ Chen, J., Zheng, J., Lu, S., Miao, Y., & Zhong, F. (2019). Co-optimization of ethnic-pattern segmentation based on hierarchical patch matching. *Scientia Sinica Informationis*, *49*(2), 188–203. https://doi.org/10.1360/n112018-00205
+- ✅ Turner-Jones, R. N., Tuxworth, G., Haubt, R. A., & Wallis, L. (2024). Digitising the deep past: Machine learning for rock art motif classification in an educational citizen science application. *Journal on Computing and Cultural Heritage*, *17*(4), 1–19. https://doi.org/10.1145/3665796
+- ✅ Yan, M.-X., Qian, J., & Zhao, K.-W. (2025). A review of segmentation methods for ethnic pattern recognition and digital preservation. In *18th Textile Bioengineering and Informatics Symposium Proceedings (TBIS 2025)* (pp. 494–501). https://doi.org/10.52202/081756-0057
+- ✅ Ba, Y. (2025). Research on GSEm-Net detection method of embroidery pattern lightweight operator for digital protection of Gansu intangible cultural heritage long embroidery. In *Second International Conference on Big Data, Computational Intelligence, and Applications (BDCIA 2024)*. https://doi.org/10.1117/12.3059274
+
+### 14.5 纹样生成（含苗族直接近邻）（对应第五节）
+
+- ✅ Ma, T., Zhang, J., & Jiang, Y. (2024). Innovative design of Miao ethnic batik patterns based on Stable Diffusion. In *17th Textile Bioengineering and Informatics Symposium Proceedings (TBIS 2024)* (pp. 451–458). https://doi.org/10.52202/076989-0055
+- ✅ Zhong, W. (2025). Construction of a batik pattern database and extraction of characteristic factors of Miao batik patterns in southeastern Guizhou Province. In *18th Textile Bioengineering and Informatics Symposium Proceedings (TBIS 2025)* (pp. 785–794). https://doi.org/10.52202/081756-0089
+- ✅ Liu, L., & Li, J. (2024). The application of style transfer algorithms in the innovative design of Miao ethnic embroidery patterns. In *2024 5th International Conference on Intelligent Design (ICID)* (pp. 71–74). https://doi.org/10.1109/icid64166.2024.11024740
+- ✅ Liu, L., & Sun, X. (2024). A study on Miao batik pattern design based on style transfer algorithms. In *2024 4th International Conference on Artificial Intelligence, Robotics, and Communication (ICAIRC)* (pp. 953–957). https://doi.org/10.1109/icairc64177.2024.10900223
+- ✅ Zhu, Y., Wang, W., & Ji, W. (2025). *AIGC-driven integration of shape grammars and entropy-weighted TOPSIS for product design in Guizhou Miao embroidery* [Preprint]. SSRN. https://doi.org/10.2139/ssrn.5312869
+- ✅ Shao, X., & Jung, E. (2026). Miao(Hmong) embroidery image design using AIGC. *Design Convergence Study*, *25*(2), 1–17. https://doi.org/10.31678/sdc117.1
+- ✅ ★ Liu, Y., Li, Y., Li, Q., & Wang, S. (2026). Application and evaluation of Stable Diffusion-based generative AI in the digital reconstruction of cultural heritage patterns. *Journal on Computing and Cultural Heritage*, 3789209. https://doi.org/10.1145/3789209
+- ✅ Yang, C., Hu, X., Ou, Y., Zhong, S., Peng, T., Zhu, L., Li, P., & Sheng, B. (2022). Unsupervised embroidery generation using embroidery channel attention. In *Proceedings of the 18th ACM SIGGRAPH International Conference on Virtual-Reality Continuum and its Applications in Industry* (pp. 1–8). https://doi.org/10.1145/3574131.3574430
+- ✅ Wu, H., He, W., Li, X., & Liang, Y. (2023). Research on ethnic pattern generation based on generative adversarial networks. In *2023 15th International Conference on Advanced Computational Intelligence (ICACI)* (pp. 1–6). https://doi.org/10.1109/icaci58115.2023.10146174
+- ✅ Minarno, A. E., Soesanti, I., & Nugroho, H. A. (2024). Optimization of BatikGAN with gradient loss for enhanced batik motif generation. In *2024 IEEE 6th Symposium on Computers & Informatics (ISCI)* (pp. 305–310). https://doi.org/10.1109/isci62787.2024.10668317
+- ✅ Wu, C. (2023). Color analysis of cloud brocade pattern by image style transfer. *HighTech and Innovation Journal*, *4*(4), 779–786. https://doi.org/10.28991/hij-2023-04-04-07
+
+### 14.6 布局与关系可控生成（对应第六节）
+
+- ✅ Huang, K., Sun, K., Xie, E., Li, Z., & Liu, X. (2023). T2I-CompBench: A comprehensive benchmark for open-world compositional text-to-image generation. In *Advances in Neural Information Processing Systems 36* (pp. 78723–78747). https://doi.org/10.52202/075280-3443
+- ✅ Couairon, G., Careil, M., Cord, M., Lathuilière, S., & Verbeek, J. (2023). Zero-shot spatial layout conditioning for text-to-image diffusion models. In *2023 IEEE/CVF International Conference on Computer Vision (ICCV)* (pp. 2174–2183). https://doi.org/10.1109/iccv51070.2023.00207
+- ✅ Shirakawa, T., & Uchida, S. (2024). NoiseCollage: A layout-aware text-to-image diffusion model based on noise cropping and merging. In *2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 8921–8930). https://doi.org/10.1109/cvpr52733.2024.00852
+- ✅ Jia, C., Luo, M., Dang, Z., Dai, G., Chang, X., Wang, M., & Wang, J. (2024). SSMG: Spatial-semantic map guided diffusion model for free-form layout-to-image generation. *Proceedings of the AAAI Conference on Artificial Intelligence*, *38*(3), 2480–2488. https://doi.org/10.1609/aaai.v38i3.28024
+- ✅ Zhang, H., Hong, D., Wang, Y., Shao, J., Wu, X., Wu, Z., & Jiang, Y.-G. (2025). CreatiLayout: Siamese multimodal diffusion transformer for creative layout-to-image generation. In *2025 IEEE/CVF International Conference on Computer Vision (ICCV)* (pp. 18487–18497). https://doi.org/10.1109/iccv51701.2025.01718
+- ✅ Patel, Z., & Serkh, K. (2025). Enhancing image layout control with loss-guided diffusion models. In *2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)* (pp. 3916–3924). https://doi.org/10.1109/wacv61041.2025.00385
+- ✅ Liu, R., Xu, Z., & Zhang, J. (2026). Unified compositional controller: A training-free framework for highly controllable text-to-image generation. *Information Sciences*, *745*, 123380. https://doi.org/10.1016/j.ins.2026.123380
+- ✅ Lin, H., Ye, Y., Xia, J., & Zeng, W. (2025). SketchFlex: Facilitating spatial-semantic coherence in text-to-image generation with region-based sketches. In *Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems* (pp. 1–19). https://doi.org/10.1145/3706598.3713801
+- ✅ Ivgi, M., Benny, Y., Ben-David, A., Berant, J., & Wolf, L. (2021). Scene graph tO image generation with contextualized object layout refinement. In *2021 IEEE International Conference on Image Processing (ICIP)* (pp. 2428–2432). https://doi.org/10.1109/icip42928.2021.9506651
+- ✅ Gu, J., Zhao, H., Lin, Z., Li, S., Cai, J., & Ling, M. (2019). Scene graph generation with external knowledge and image reconstruction. In *2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 1969–1978). https://doi.org/10.1109/cvpr.2019.00207
+
+### 14.7 文化评价与偏差（对应第八节）
+
+- ✅ ★ Elsharif, W., Alzubaidi, M., & Agus, M. (2025). Cultural bias in text-to-image models: A systematic review of bias identification, evaluation, and mitigation strategies. *IEEE Access*, *13*, 122636–122659. https://doi.org/10.1109/access.2025.3585745
+- ✅ ★ Galindo-Durán, A., Oliver-López, C. P. D., & Bernal-Bravo, C. (2026). A methodological protocol for the generation and evaluation of AI-generated cultural heritage content. *Journal of Cultural Heritage*, *81*, 370–381. https://doi.org/10.1016/j.culher.2026.08.010
+- ✅ Elsharif, W., Agus, M., Alzubaidi, M., & She, J. (2024). Cultural relevance index: Measuring cultural relevance in AI-generated images. In *2024 IEEE 7th International Conference on Multimedia Information Processing and Retrieval (MIPR)* (pp. 410–416). https://doi.org/10.1109/mipr62202.2024.00071
+- ✅ Zhang, Z., Huang, T., Xu, E., Zhao, R., Yang, K., & Wang, Y. (2025). Synthetic representations: Exploring public sensitivity to cultural authenticity in AI-generated images of Chinese Nuo opera. In *Proceedings of the 2025 International Conference on Human-Engaged Computing* (pp. 1–12). https://doi.org/10.1145/3786995.3787060
+- ✅ Almarwani, N., Aloufi, S., Alkhereyf, S., Alhassoun, M., Almutery, M., Alshalawi, N., & Al-Thubaity, A. (2025). KingdomGlimpses: Evaluating saudi cultural representation through text-to-image models. *IEEE Access*, *13*, 177822–177845. https://doi.org/10.1109/access.2025.3619432
+- ✅ Abu Hamad, F., Ibrahim, I., Abu Talib, M., & Al Hemairy, M. (2026). Generative AI in architecture: Examining text-to-image models and platforms for cultural heritage representation in UAE design. *International Journal of Architectural Computing*, 14780771261468138. https://doi.org/10.1177/14780771261468138
+- ✅ Feng, L., & Hu, W. (2026). From aesthetics to authenticity: A stimulus–organism–response model of audience responses to AI-generated intangible cultural heritage design. *Scientific Reports*. https://doi.org/10.1038/s41598-026-69396-4
+- ✅ Brown, M. F. (2003). *Who owns native culture?* Harvard University Press.
+  - 理由：讨论原住民文化和纹样的所有权，对应伦理和署名部分。
+
+### 14.8 工匠参与与人机共创（对应第十节）
+
+- ✅ ★ Zhang, B., Guo, L., Cheng, H., & Sun, D. (2026). Design and evaluation of an AI-mediated visual co-creation system for participatory cultural heritage in museums. *Journal on Computing and Cultural Heritage*, 3843237. https://doi.org/10.1145/3843237
+- ✅ Kadenhe, N., Al Musleh, M., & Lompot, A. (2025). Human-AI co-design and co-creation: A review of emerging approaches, challenges, and future directions. *Proceedings of the AAAI Symposium Series*, *6*(1), 265–270. https://doi.org/10.1609/aaaiss.v6i1.36061
+- ✅ Zhang, Z., & Min, X. (2025). Decoding intangible cultural heritage ecology: A co-creation framework for systemic design --- insights from the Dali national eco-cultural protection zone. In *IASDR 2025: Design Next*. https://doi.org/10.21606/iasdr.2025.863
+- ✅ Guo, J., & Ahn, B. (2023). Tacit knowledge sharing for enhancing the sustainability of intangible cultural heritage (ICH) crafts: A perspective from artisans and academics under Craft–Design collaboration. *Sustainability*, *15*(20), 14955. https://doi.org/10.3390/su152014955
+- ✅ Yan, W.-J., & Li, K.-R. (2023). Sustainable cultural innovation practice: Heritage education in universities and creative inheritance of intangible cultural heritage craft. *Sustainability*, *15*(2), 1194. https://doi.org/10.3390/su15021194
+- ✅ Sun, Y., & Liu, X. (2022). How design technology improves the sustainability of intangible cultural heritage products: A practical study on bamboo basketry craft. *Sustainability*, *14*(19), 12058. https://doi.org/10.3390/su141912058
+- ✅ De Munck, B. (2019). Artisans as knowledge workers: Craft and creativity in a long term perspective. *Geoforum*, *99*, 227–237. https://doi.org/10.1016/j.geoforum.2018.05.025
+- ✅ Bissett-Johnson, K., & Moorhead, D. (2019). Co-creating craft; Australian designers meet artisans in India. *Textile Society of America Symposium Proceedings*. https://doi.org/10.32873/unl.dc.tsasp.0004
+
+### 14.9 感性工学、眼动与审美知觉（对应第十一节）
+
+- ✅ Marković, S. (2012). Components of aesthetic experience: Aesthetic fascination, aesthetic appraisal, and aesthetic emotion. *i-Perception*, *3*(1), 1–17. https://doi.org/10.1068/i0450aap
+- ✅ Deng, J., Chen, J., & Lei, Y. (2024). A study on the visual perception of cultural value characteristics of traditional southern Fujian architecture based on eye tracking. *Buildings*, *14*(11), 3529. https://doi.org/10.3390/buildings14113529
+- ✅ Ye, F., Yin, M., Cao, L., Sun, S., & Wang, X. (2024). Predicting emotional experiences through eye-tracking: A study of tourists’ responses to traditional village landscapes. *Sensors*, *24*(14), 4459. https://doi.org/10.3390/s24144459
+- ✅ Jiang, Z., Gan, J., Hong, Y., & Wu, B. (2024). Application of Kansei engineering in the innovative design of traditional fashion elements. *Industria Textila*, *75*(3), 289–301. https://doi.org/10.35530/it.075.03.202370
+- ✅ Syarief, A. (2012). Incorporating "Kansei engineering" approach on traditional textiles - a proposed method for identifying multi-sensorial experiences on the Kansei attributes of traditional textiles. *The Research Journal of the Costume Culture*, *20*(1), 121–127. https://doi.org/10.7741/rjcc.2012.20.1.121
+- ✅ Yang, X., Zhang, N., & Lv, J. (2025). Design of Chinese traditional Jiaoyi (folding chair) based on Kansei engineering and CNN-GRU-attention. *Frontiers in Neuroscience*, *19*, 1591410. https://doi.org/10.3389/fnins.2025.1591410
+- ✅ Wu, D.-Y., & Zhang, B.-Y. (2024). Exploring the attractive factors of traditional Fu cultural symbol: A Kansei engineering approach. In *2024 17th International Symposium on Computational Intelligence and Design (ISCID)* (pp. 277–280). https://doi.org/10.1109/iscid63852.2024.00069
+
+### 14.10 方法学：关系增量检验、数据划分与标注分歧（对应第十二节）
+
+- ✅ ★ Strobl, C., Boulesteix, A.-L., Kneib, T., Augustin, T., & Zeileis, A. (2008). Conditional variable importance for random forests. *BMC Bioinformatics*, *9*(1), 307. https://doi.org/10.1186/1471-2105-9-307
+- ✅ ★ Kapoor, S., & Narayanan, A. (2023). Leakage and the reproducibility crisis in machine-learning-based science. *Patterns*, *4*(9), 100804. https://doi.org/10.1016/j.patter.2023.100804
+- ✅ ★ Roberts, D. R., Bahn, V., Ciuti, S., Boyce, M. S., Elith, J., Guillera‐Arroita, G., Hauenstein, S., Lahoz‐Monfort, J. J., Schröder, B., Thuiller, W., Warton, D. I., Wintle, B. A., Hartig, F., & Dormann, C. F. (2017). Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure. *Ecography*, *40*(8), 913–929. https://doi.org/10.1111/ecog.02881
+- ✅ ★ Plank, B. (2022). The “problem” of human label variation: On ground truth in data, modeling and evaluation. In *Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing* (pp. 10671–10682). https://doi.org/10.18653/v1/2022.emnlp-main.731
+- ✅ Aroyo, L., & Welty, C. (2015). Truth is a lie: Crowd truth and the seven myths of human annotation. *AI Magazine*, *36*(1), 15–24. https://doi.org/10.1609/aimag.v36i1.2564
+- ✅ Zimmerman, J., Forlizzi, J., & Evenson, S. (2007). Research through design as a method for interaction design research in HCI. In *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems* (pp. 493–502). https://doi.org/10.1145/1240624.1240704
+
+## 十五、覆盖度评估：对照开题研究内容
+
+下表对照开题的研究内容，评估本清单（含第十四节补检）加上开题已引的 88 条文献，在各模块的覆盖程度。
+
+| 研究模块 | 对应开题内容 | 英文文献覆盖 | 中文文献覆盖 | 主要缺口 |
+|---|---|---|---|---|
+| 苗绣文化本体 | 选题背景、RQ1 | 较好：民族志、图录、施洞与雷山个案、带状群对称都有 | **不足**：只有专著和少量期刊 | 《贵州民族研究》《民族艺术》等 CSSCI 刊物上的苗绣图像学、母题研究；苗族服饰的地方志与调查报告 |
+| 纹样结构与构图 | 核心假设 P、关系层 R | 较好：对称理论、形状文法、共现网络、图像学经典 | 一般：有形状文法、民族图案语义量化 | 国内"纹样构图法则""适合纹样""组合纹样"的装饰学论述（如《装饰》《艺术设计研究》） |
+| 非遗数字化与知识组织 | 研究内容一 | 充分：知识图谱、本体、CIDOC-CRM、多模态非遗知识图谱 | 一般 | 知网上非遗知识元、纹样本体的情报学论文（《图书情报工作》《数字图书馆论坛》等） |
+| 识别、检测与分割 | 研究内容一（辅助检测） | 充分：刺绣、蜡染、织锦的检测、分割、修复，含苗绣 | 一般 | 《纺织学报》《丝绸》上的刺绣图像识别论文 |
+| 纹样生成 | 研究内容二 | **充分**：苗绣、苗族蜡染的扩散生成近邻已有 10 余篇 | 一般 | 知网上 2024–2026 年的"AIGC + 苗绣/民族纹样"论文，数量很多但质量参差，需要按 C 刊筛选 |
+| 布局与关系可控生成 | 研究内容二、KP2 | **充分**：布局控制、场景图生成、组合性评测都比较全 | 基本不需要 | 可按需追踪 2026 年的新方法 |
+| 文化评价与偏差 | 研究内容三、KP3 | 充分：文化能力、偏差综述、AI 生成遗产内容的评价协议 | 不足 | 国内"文化适切性""本真性"评价的设计学论文 |
+| 工匠参与与人机共创 | 研究内容四 | 充分：Craft-HCI、共创、花瑶和苗绣案例 | 不足 | 国内"传承人参与设计""非遗协同设计"的实证研究 |
+| 感性工学、眼动与知觉 | 研究内容三 | 较好 | 一般：开题已引多篇博士论文 | 《包装工程》上"眼动 + 传统纹样"的实验研究 |
+| 方法学 | 关系增量检验、分组划分、标注分歧 | **本轮新补**：条件变量重要性、数据泄漏、结构化交叉验证、标注分歧 | 不需要 | — |
+
+**总体判断**：
+- **英文文献**：在"生成、关系控制、评价、共创、方法学"这几个方向已经覆盖到主要文献，足以支撑开题的国外研究现状。
+- **中文期刊文献**：仍然是明显短板。Crossref 基本不收录知网的核心期刊，本环境又访问不了知网，所以**这一块必须由你在知网补检**，检索式见第十三节。
+- **不保证穷尽**：网页检索和 Crossref 检索都做不到穷尽。定稿前建议在 Web of Science 里用第十三节的检索块再跑一遍，并对 ★ 文献做引文追踪。
+
 ---
 
 ## 核查清单
 
 | 项目 | 数量 |
 |---|---|
-| 本清单条目总数 | 162 条（不含开题已引的 88 条） |
-| ✅ 已核实，可直接引用 | 153 条 |
-| ⚠️ 仍待补全 | 9 条（其中 7 条是中文文献，2 条是 Crossref 未收录的英文文献） |
-| 英文 / 中文 | 147 / 15 |
-| 近 5 年（2021 年及以后）占比 | 约 72%（116/160，有 2 条无年份） |
-| 预印本 | 10 条仍只有 arXiv 版本；另有 7 条已经换成正式发表版本 |
+| 本清单条目总数 | 247 条（不含开题已引的 88 条）：第一至十二节 162 条，第十四节补检 85 条 |
+| ✅ 已核实，可直接引用 | 236 条 |
+| ⚠️ 仍待补全 | 11 条（多数是 Crossref 未收录的中文文献） |
+| 英文 / 中文 | 232 / 15 |
+| 近 5 年（2021 年及以后）占比 | 约 74%（181/245） |
+| 预印本 | 11 条仍只有预印本；另有 7 条已经换成正式发表版本 |
 
 ### 已知缺口
 
-1. **中文 C 刊和北大核心文献数量偏少。** 原因是本环境访问不了知网，不代表国内研究少。请按第十三节补检。
+1. **中文 C 刊和北大核心文献数量偏少。** 原因是本环境访问不了知网，而 Crossref 基本不收录知网的核心期刊（补检时用中文检索词只命中了海外中文刊），不代表国内研究少。请按第十三节补检，各模块的具体缺口见第十五节。
 2. **收录标签来自期刊的一般收录情况，不是逐刊查证的结果。** SCIE、SSCI 和 CSSCI 身份每年都会变动，投稿或引用前请逐一核对。
 3. **标 [Preprint] 的条目尚未经过同行评审。** 可以用来定位研究空白、比较思路，但不宜作为关键论据。
 4. **核对中修正了原清单的几处错误**：
